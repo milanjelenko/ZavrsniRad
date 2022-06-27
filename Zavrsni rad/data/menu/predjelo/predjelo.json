@@ -1,0 +1,40 @@
+{
+  "vrsta": "predjelo",
+  "izbor": [
+    {
+      "id": 0,
+      "ime": "Selekcija sireva",
+      "src": "predjelo0",
+      "cena": 950,
+      "posno": false
+    },
+    {
+      "id": 1,
+      "ime": "Proja sa sirom",
+      "src": "predjelo1",
+      "cena": 350,
+      "posno": false
+    },
+    {
+      "id": 2,
+      "ime": "Brusketi",
+      "src": "predjelo2",
+      "cena": 450,
+      "posno": true
+    },
+    {
+      "id": 3,
+      "ime": "Domaca lepinja",
+      "src": "predjelo3",
+      "cena": 300,
+      "posno": true
+    },
+    {
+      "id": 4,
+      "ime": "Code daska",
+      "src": "predjelo4",
+      "cena": 1600,
+      "posno": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "vrsta": "piće",
+  "izbor": [
+    { "id": 0, "ime": "Rakija", "src": "piće0", "cena": 350, "posno": false },
+    { "id": 1, "ime": "Pivo", "src": "piće1", "cena": 300, "posno": false },
+    { "id": 2, "ime": "Vino", "src": "piće2", "cena": 1200, "posno": false },
+    {
+      "id": 3,
+      "ime": "Sampanjac",
+      "src": "piće3",
+      "cena": 1600,
+      "posno": false
+    },
+    { "id": 4, "ime": "Sokovi", "src": "piće4", "cena": 250, "posno": false }
+  ]
+}

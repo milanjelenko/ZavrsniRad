@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+// font-family: 'Amatic SC', cursive;
+
+// Univerzalni selektor
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+#naslov {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 7vh;
+  letter-spacing: 8px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border-bottom: 2px solid white;
+}
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  height: 84vh;
+
+  & #layout {
+    position: relative;
+    width: 65%;
+    height: 100%;
+    background-image: url("../data/Images/layout.jpg");
+    border-right: 2px solid white;
+    .active_table {
+      color: springgreen;
+    }
+    & .table {
+      position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      filter: invert(100%) brightness(70%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      font-family: "Amatic SC", sans-serif;
+      font-size: 4.5vh;
+      letter-spacing: 1.5px;
+      &:hover {
+        filter: invert(100%) brightness(200%);
+        font-weight: 600;
+      }
+    }
+    & #table1 {
+      top: 5vh;
+      left: 5vh;
+      height: 30vh;
+      width: 20vh;
+      background-image: url("../data/Images/table_2p.png");
+    }
+
+    & #table2 {
+      top: 50vh;
+      left: 5vh;
+      height: 30vh;
+      width: 20vh;
+      background-image: url("../data/Images/table_2p.png");
+    }
+
+    & #table3 {
+      top: 2vh;
+      left: 41vh;
+      height: 40vh;
+      width: 45vh;
+      background-image: url("../data/Images/table_6p.png");
+      background-size: 95%;
+      background-position: center;
+    }
+
+    & #table4 {
+      top: 50vh;
+      left: 43vh;
+      height: 30vh;
+      width: 40vh;
+      background-image: url("../data/Images/table_4p.png");
+      background-size: 78%;
+      background-position: center;
+    }
+
+    & #table5 {
+      top: 5vh;
+      left: 92vh;
+      height: 30vh;
+      width: 40vh;
+      background-image: url("../data/Images/table_4p.png");
+      background-size: 78%;
+      background-position: center;
+    }
+
+    & #table6 {
+      top: 46vh;
+      left: 89vh;
+      height: 37vh;
+      width: 42vh;
+      background-image: url("../data/Images/table_6p1.png");
+      background-size: 94%;
+      background-position: center;
+    }
+  }
+  & #ispis {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(206, 215, 153);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 4vh;
+    letter-spacing: 1.2px;
+    text-align: center;
+    padding: 0 2%;
+    & h3 {
+      text-decoration: underline;
+      margin-bottom: 3px;
+      margin-top: 2%;
+      font-size: 4vh;
+    }
+
+    & #section_2 {
+      & #forma {
+        border-radius: 40px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        & label {
+          font-size: 3vh;
+          display: inline-block;
+          margin-right: 5px;
+          text-align: left;
+          width: 23%;
+          transform: translateY(4px);
+        }
+        & input {
+          display: inline-block;
+          height: 4vh;
+          width: 60%;
+          margin-right: 50px;
+          background: transparent;
+          border: none;
+          border-bottom: 2px solid black;
+        }
+        & textarea {
+          width: 60%;
+          height: 8vh;
+          margin-right: 50px;
+          margin-top: 15px;
+          background: transparent;
+        }
+        & #ta {
+          transform: translateY(-4.5vh);
+        }
+      }
+    }
+    & button {
+      display: block;
+      margin: 3px auto;
+      width: 20%;
+      height: 25px;
+      background-color: black;
+      color: white;
+      font-family: "Amatic SC", sans-serif;
+      font-size: 2vh;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
+}

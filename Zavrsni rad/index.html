@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Zavrsni rad Milan Jelenković" />
+    <meta name="keywords" content="Code restaurant, HTML, CSS, JS" />
+    <link rel="shortcut icon" href="data/Images/Code.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="/Style/index_style.css" />
+    <title>Code restaurant | Milan Jelenković</title>
+  </head>
+  <body>
+    <!-- NAVIGACIJA -->
+    <header id="header">
+      <nav>
+        <img id="logo" src="data/Images/Code.jpg" alt="logo" />
+        <ul id="lista">
+          <li class="navLista"><a class="link" href="#Home">Home</a></li>
+          <li class="navLista">
+            <a class="link" href="#menu">Menu</a>
+          </li>
+          <li class="navLista">
+            <a class="link" href="#contact">Contact</a>
+          </li>
+          <li class="navLista">
+            <a class="link" href="Rezervacije.html" target="_blank">Reservations</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="carouselContainer"></div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="linija gornja"></div>
+      <div id="rezervacija">
+        <a href="Rezervacije.html">You can book your table right now</a>
+      </div>
+      <div class="linija donja"></div>
+    </footer>
+
+    <!-- MENU -->
+    <div id="menu">
+      <div id="menuSlika"></div>
+      <div id="jelovnik">
+        <div id="nav">
+          <button id="predjelo" class="btn"><label>APEETIZER</label></button>
+          <button id="glavno_jelo"class="btn"><label>MEALS</label></button>
+          <button id="desert"class="btn"><label>DESERTS<label></button>
+          <button id="piće"class="btn"><label>DRINKS</label></button>
+        </div>
+        <div id="dinamickaLista">
+          <div id="ispis">Choose your meal</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div id="naslovni">CONTACT</div>
+      <div id=traka>
+        <div class="info">
+          <img class="img" src="data/Images/pin_logo.png" alt="pin_logo">
+          <div class="opis">
+            <h3>ADRESS</h3>
+            <p>Savski nasip 7, Beograd</p>
+          </div>
+        </div>
+        <div class="info">
+          <img class="img" src="data/Images/tel_logo.jpg" alt="tel_logo">
+          <div class="opis">
+            <h3>TELEPHONE</h3>
+            <p>011/453-77-83</p>
+          </div>
+        </div>
+        <div class="info">
+          <img class="img" src="data/Images/mail_logo.png" alt="mail_logo">
+          <div class="opis">
+            <h3>E-MAIL</h3>
+            <p>code.restaurant@office.co.rs</p>
+          </div>
+          </div>
+        <div class="info">
+          <img class="img" src="data/Images/clook_logo.jpg" alt="clook_logo">
+          <div class="opis">
+            <h3>WORKING HOURS</h3>
+            <p>07:00 - 23:00</p>
+          </div>
+        </div>
+      </div>
+      <div id="infos"> 
+      <div id="lokacija">
+         <div id="text">HOW TO FIND US</div>
+         <div id="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.9608459781193!2d20.4174947153259!3d44.80198657909864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6fed7b272c33%3A0xfa6d33c859503953!2z0JrQvtC80YLRgNC10ZjQtA!5e0!3m2!1ssr!2srs!4v1655919567525!5m2!1ssr!2srs" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> </div>
+      </div>
+    
+
+      <div id="forma_odeljak">
+        <div id="wtu">WRITE TO US</div>
+
+        <fieldset id="forma">
+          <legend><strong> Code restaurant</strong></legend>
+          <input
+            type="text"
+            id="ime"
+            name="ime"
+            placeholder="Name"
+            autocomplete="off"
+          />
+          <span id="check_ime"></span>
+          <input
+            type="text"
+            id="prezime"
+            name="prezime"
+            placeholder="Surname"
+            autocomplete="off"
+          />
+          <span id="check_prezime"></span>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            autocomplete="off"
+          />
+          <span id="check_email"></span>
+          <textarea name="poruka" id="poruka">
+           Be free to write your message here...</textarea
+          >
+          <button id="btn" type="submit">
+            <img src="data/Images/letter.png" alt="letter" />
+          </button>
+        </fieldset>
+
+      </div>
+    </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "table1",
+    "broj_min": 1,
+    "broj_max": 2
+  },
+  {
+    "id": "table2",
+    "broj_min": 1,
+    "broj_max": 2
+  },
+  {
+    "id": "table3",
+    "broj_min": 4,
+    "broj_max": 8
+  },
+  {
+    "id": "table4",
+    "broj_min": 2,
+    "broj_max": 4
+  },
+  {
+    "id": "table5",
+    "broj_min": 2,
+    "broj_max": 4
+  },
+  {
+    "id": "table6",
+    "broj_min": 4,
+    "broj_max": 6
+  }
+]

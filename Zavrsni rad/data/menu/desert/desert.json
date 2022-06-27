@@ -1,0 +1,28 @@
+{
+  "vrsta": "desert",
+  "izbor": [
+    {
+      "id": 0,
+      "ime": "Palačinke",
+      "src": "desert0",
+      "cena": 450,
+      "posno": false
+    },
+    {
+      "id": 1,
+      "ime": "Čokoladni mus",
+      "src": "desert1",
+      "cena": 650,
+      "posno": false
+    },
+    {
+      "id": 2,
+      "ime": "Cheesecake",
+      "src": "desert2",
+      "cena": 600,
+      "posno": false
+    },
+    { "id": 3, "ime": "Torta", "src": "desert3", "cena": 750, "posno": false },
+    { "id": 4, "ime": "Sladoled", "src": "desert4", "cena": 250, "posno": true }
+  ]
+}

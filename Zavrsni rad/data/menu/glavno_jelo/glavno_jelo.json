@@ -1,0 +1,40 @@
+{
+  "vrsta": "glavno_jelo",
+  "izbor": [
+    {
+      "id": 0,
+      "ime": "Ćevapi",
+      "src": "glavno_jelo0",
+      "cena": 850,
+      "posno": false
+    },
+    {
+      "id": 1,
+      "ime": "Pljeskavica",
+      "src": "glavno_jelo1",
+      "cena": 800,
+      "posno": false
+    },
+    {
+      "id": 2,
+      "ime": "Pileći batak",
+      "src": "glavno_jelo2",
+      "cena": 750,
+      "posno": false
+    },
+    {
+      "id": 3,
+      "ime": "Bečka šnicla",
+      "src": "glavno_jelo3",
+      "cena": 950,
+      "posno": false
+    },
+    {
+      "id": 4,
+      "ime": "Pastrmka",
+      "src": "glavno_jelo4",
+      "cena": 1250,
+      "posno": true
+    }
+  ]
+}

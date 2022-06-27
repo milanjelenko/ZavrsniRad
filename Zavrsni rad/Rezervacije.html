@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/reserve.css" />
+    <title>Reservations</title>
+  </head>
+  <body>
+    <div id="naslov">WELCOME TO CODE RESTAURANT RESERVATIONS</div>
+    <div id="container">
+      <div id="layout">
+        <div class="table" id="table1">Table 1</div>
+        <div class="table" id="table2">Table 2</div>
+        <div class="table" id="table3">Table 3</div>
+        <div class="table" id="table4">Table 4</div>
+        <div class="table" id="table5">Table 5</div>
+        <div class="table" id="table6">Table 6</div>
+      </div>
+      <div id="ispis">
+        <div id="section_1">
+        <h3>Step 1</h3>
+        <p>Please choose your table</p>
+        </div>
+        <div id="section_2">
+        <h3>Step 2</h3>
+       <p>Give us little more informations</p>
+       <fieldset id="forma">
+        <form action="GET">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Name"
+          autocomplete="off"
+        />
+        <label for="surname">Surame</label>
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+          placeholder="Surname"
+          autocomplete="off"
+        />
+        <label for="number">Persons</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          placeholder="1"
+          autocomplete="off"
+        />
+        <label for="date">Choose date</label>
+        <input
+        type="date"
+        id="date"
+        name="date"
+        placeholder="date"
+        autocomplete="off"
+      />
+      <label for="time">Choose time</label>
+      <input
+      type="time"
+      id="time"
+      name="time"
+      placeholder="time"
+      autocomplete="off"
+    />  
+    <label id="ta" for="poruka">Give us notes</label>    
+        <textarea name="poruka" id="poruka">
+      </textarea
+        >
+      </form>
+      </fieldset>
+
+
+     </div>
+      <div id="section_3">
+        <h3>Step 3</h3>
+       <p>Confirm reservation</p>
+       <button id="confirm">Confirm</button>
+      </div>
+    </div>
+    <script src="js/rezervacije.js"></script>
+  </body>
+</html>
